@@ -1,4 +1,4 @@
-package org.example.bitmoji;
+package org.example.bitmoji.type;
 
 public enum SkinColorType {
     FAIR,

@@ -1,5 +1,7 @@
 package org.example.bitmoji;
 
+import org.example.bitmoji.type.BitmojiType;
+
 public class Bitmoji {
     private String dressCode;
     private String footWear;
@@ -15,9 +17,9 @@ public class Bitmoji {
     @Override
     public String toString() {
         return "Bitmoji{" +
-                "dressCode='" + dressCode + '\'' +
+                "bitmojiType=" + bitmojiType +
+                ", dressCode='" + dressCode + '\'' +
                 ", footWear='" + footWear + '\'' +
-                ", bitmojiType=" + bitmojiType +
                 '}';
     }
 }

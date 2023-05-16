@@ -1,10 +1,10 @@
-package org.example.bitmoji;
+package org.example.bitmoji.type;
 
 public class BitmojiType {
 
     private String name;
     private BodyType type;
-    private  SkinColorType skinColor;
+    private SkinColorType skinColor;
 
     public BitmojiType(String name,BodyType type,SkinColorType skinColor) {
         this.name = name;
