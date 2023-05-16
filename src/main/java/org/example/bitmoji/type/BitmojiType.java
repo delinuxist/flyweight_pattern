@@ -3,12 +3,12 @@ package org.example.bitmoji.type;
 public class BitmojiType {
 
     private String name;
-    private BodyType type;
+    private BodyType bodyType;
     private SkinColorType skinColor;
 
     public BitmojiType(String name,BodyType type,SkinColorType skinColor) {
         this.name = name;
-        this.type = type;
+        this.bodyType = type;
         this.skinColor = skinColor;
     }
 
@@ -16,7 +16,7 @@ public class BitmojiType {
     public String toString() {
         return "BitmojiType{" +
                 "name='" + name + '\'' +
-                ", type=" + type +
+                ", type=" + bodyType +
                 ", skinColor=" + skinColor +
                 '}';
     }
